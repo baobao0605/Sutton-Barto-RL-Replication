@@ -98,7 +98,7 @@ class Env():
 
 env = Env()
 agent = Agent()
-gamma = 0.1
+gamma = 0.9
 bin_best_action_history = []
 for episode in range(1000):
     steps = 0
